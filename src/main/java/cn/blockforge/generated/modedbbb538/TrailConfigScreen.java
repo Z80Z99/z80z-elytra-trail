@@ -88,7 +88,7 @@ public final class TrailConfigScreen extends Screen {
     }
 
     public TrailConfigScreen(Screen parent) {
-        super(Component.translatable("config.mod_edbbb538.title"));
+        super(Component.translatable("config.z80z_elytra_trail.title"));
         this.parent = parent;
         Random random = new Random(20261016L);
         for (int i = 0; i < DOT_COUNT; i++) {
@@ -100,7 +100,7 @@ public final class TrailConfigScreen extends Screen {
     }
 
     private static Component tr(String key) {
-        return Component.translatable("config.mod_edbbb538." + key);
+        return Component.translatable("config.z80z_elytra_trail." + key);
     }
 
     @Override

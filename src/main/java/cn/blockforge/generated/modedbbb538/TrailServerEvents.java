@@ -33,7 +33,7 @@ public final class TrailServerEvents {
             int color = dyeItem.getDyeColor().getFireworkColor();
             event.getEntity().getPersistentData().putInt(COLOR_TAG, color);
             event.getEntity().displayClientMessage(
-                    Component.translatable("message.mod_edbbb538.color_set",
+                    Component.translatable("message.z80z_elytra_trail.color_set",
                             Component.translatable("color.minecraft." + dyeItem.getDyeColor().getName())), true);
             event.setCancellationResult(InteractionResult.SUCCESS);
             event.setCanceled(true);

@@ -8,7 +8,7 @@ import net.minecraftforge.fml.loading.FMLEnvironment;
 
 @Mod(GeneratedMod.MOD_ID)
 public final class GeneratedMod {
-    public static final String MOD_ID = "mod_edbbb538";
+    public static final String MOD_ID = "z80z_elytra_trail";
 
     public GeneratedMod() {
         ModLoadingContext.get().registerConfig(ModConfig.Type.SERVER, TrailConfig.SERVER_SPEC, "elytra_trails-server.toml");

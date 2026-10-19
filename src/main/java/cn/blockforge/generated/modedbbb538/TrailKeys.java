@@ -10,7 +10,7 @@ import org.lwjgl.glfw.GLFW;
 @Mod.EventBusSubscriber(modid = GeneratedMod.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD)
 public final class TrailKeys {
     public static final KeyMapping OPEN_CONFIG = new KeyMapping(
-            "key.mod_edbbb538.open_config", GLFW.GLFW_KEY_K, "key.categories.mod_edbbb538");
+            "key.z80z_elytra_trail.open_config", GLFW.GLFW_KEY_K, "key.categories.z80z_elytra_trail");
 
     private TrailKeys() {
     }
