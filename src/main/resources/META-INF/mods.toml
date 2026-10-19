@@ -5,8 +5,10 @@ license="MIT"
 modId="${mod_id}"
 version="${mod_version}"
 displayName="${mod_name}"
-authors="AutoMods"
-description='''鞘翅飞行拖尾特效'''
+authors="Z80Z99"
+description='''鞘翅飞行拖尾特效：连续光带丝带、翼尖双线、星尘、水珠与残影，8 种可切换样式，支持染料改色、游戏内配置与服务器统一触发条件。
+
+Elytra Trail - continuous ribbon trails, 8 styles, dye-based colours and an in-game config screen.'''
 [[dependencies.${mod_id}]]
 modId="forge"
 mandatory=true
